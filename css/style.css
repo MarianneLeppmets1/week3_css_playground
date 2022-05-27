@@ -75,28 +75,29 @@ ul{
     margin-bottom: 1,2rem;
 }
 
+
 .footer {
 padding-bottom: 3rem; 
   
   }
 .footer ul {
-  margin: 0 auto;  
+  margin: 0 auto;
+  text-align: center;  
   width: 50%;
 }
-.footer ul li{
-   display: inline-block;
-   text-align: center;
-  }
 
-  .footer ul li a {
-  color: gray;
-  font-size: 2,4rem;
-   }
 
-   .footer ul :first-child {
-    margin-right:5rem;
+.footer ul li {
+    display: inline-block;
      }
+     .footer ul li:first-child {
+        margin-right: 2rem;
+             }
 
-     .footer ul :last-child {
-        margin-left:5rem;
+     .footer ul li:last-child {
+    margin-left: 2rem;
          }
+         .footer ul li a {
+            color: gray;
+          font-size: 3rem;
+             }
