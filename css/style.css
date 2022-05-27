@@ -49,9 +49,8 @@ ul{
     margin-bottom: 2rem;
     padding-left: 3rem;
 }
-#td-method ul li :first-child {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+#td-method ul li:first-child {
+    margin-top: 1rem;
 }
 
 #td-method ul li {
